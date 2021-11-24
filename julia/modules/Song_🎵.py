@@ -47,8 +47,8 @@ async def is_register_admin(chat, user):
         )
     return None
 
-JULIASONG = "@MissJuliaRobotMP3"
-JULIAVSONG = "@MissJuliaRobotMP4"
+JULIASONG = "@Jimi_Bots"
+JULIAVSONG = "@jimibots_grp"
 
 @register(pattern="^/song (.*)")
 async def download_song(v_url):
@@ -307,8 +307,8 @@ __help__ = """
  - /lyrics <songname artist(optional)>: sends the complete lyrics of the song provided as input
 
 **Also check out - **
- @MissJuliaRobotMP3
- @MissJuliaRobotMP4
+ @Jimi_Bots
+ @jimibots_grp
 """
 
 CMD_HELP.update({
